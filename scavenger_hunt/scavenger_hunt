@@ -29,8 +29,8 @@ function make_stuck_in_a_bin(){
 function make_hiding_at_home(){
 
 	echo "$FUNCNAME: ${GREEN} creating flag for Hiding at Home... ${NC}"
-	
-	create_flag "USCGA{hidden_files_in_linux_start_with_a_period}" "/home/pi/.FINDME3.txt"
+	username=`logname`
+	create_flag "USCGA{hidden_files_in_linux_start_with_a_period}" "/home/`$username/.FINDME3.txt"
 }
 
 
