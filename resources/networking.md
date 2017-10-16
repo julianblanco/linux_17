@@ -1,7 +1,7 @@
-October 18th, 2016
+October 16th, 2017
 ======================
 
-> John Hammond | Intro to Linux 2016
+> John Hammond | Intro to Linux 2017
 
 --------------------------------------
 
